@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    public Massage[] massages;
+    public Message[] massages;
     public Actor[] actors;
 
 }
 [System.Serializable]
-public class Massage
+public class Message
 {
         public int actorID;
         public string massage;

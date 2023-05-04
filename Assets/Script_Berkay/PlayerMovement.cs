@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
         walkMove = Input.GetAxisRaw("Horizontal") * walkSpeed;
         controller.Anim(walkMove != 0);
-
+        
         if (Input.GetKeyDown(KeyCode.A))
         {
             spriteRenderer.sprite = minion1Sprite;
@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.sprite = minion2Sprite;
         }
-
+        
         if (walkMove < 0)
         {
             transform.localScale = new Vector3(-12, 12, 1);
