@@ -45,7 +45,7 @@ public class DialogueTrigger : MonoBehaviour
     private void Dialogue()
     {
         {
-            if (_playerInRange) 
+            if (_playerInRange&&!DialogueManager.GetInstance()._dialogueIsPlaying) 
             {
                 visualCue.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
