@@ -8,7 +8,8 @@ public class MainMenu : MonoBehaviour
     public GameObject mainMenu;
     public GameObject inmainMenu;
     public GameObject settingsMenu;
-
+    public GameObject pauseMenu;
+    private bool _isPlay;
     public void startGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -17,17 +18,26 @@ public class MainMenu : MonoBehaviour
     public void menu()
     {
         mainMenu.SetActive(false);
+        _isPlay = true;
     }
     public void settings()
     {
         inmainMenu.SetActive(false);
         settingsMenu.SetActive(true);
+        pauseMenu.SetActive(false);
     }
-    
+
     public void back()
     {
-        inmainMenu.SetActive(true);
-        settingsMenu.SetActive(false);
+        if (!_isPlay)
+        {
+            inmainMenu.SetActive(true);
+            settingsMenu.SetActive(false);
+        }
+        else {
+            pauseMenu.SetActive(true);
+            settingsMenu.SetActive(false);
+        }
     }
     public void quitGame()
     {
