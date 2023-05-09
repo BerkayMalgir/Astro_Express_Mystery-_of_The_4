@@ -14,19 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 43
-    width: 2560
-    height: 1349
-=======
-    x: 130
-    y: 166
-    width: 1943
-    height: 937
->>>>>>> Alper
+    x: 7.3333335
+    y: 50
+    width: 1692
+    height: 961.3334
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -50,50 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
-    width: 2560
-    height: 1299
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 21
-=======
-<<<<<<< HEAD
-  controlID: 27
-=======
-  controlID: 57
-=======
-<<<<<<< HEAD
-    width: 1706.6666
-    height: 926
+    width: 1692
+    height: 911.3333
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 23
-=======
-    width: 1920
-    height: 947
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 82
->>>>>>> Kahraman
->>>>>>> origin/main
->>>>>>> main
->>>>>>> Alper
-=======
-    width: 1943
-    height: 887
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 43
->>>>>>> Alper
-=======
-  controlID: 77
->>>>>>> TeamBranch
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -109,51 +64,13 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1954
+    x: 1293.3334
     y: 0
-    width: 606
-    height: 1299
-<<<<<<< HEAD
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
-=======
-<<<<<<< HEAD
+    width: 398.66663
+    height: 911.3333
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
-=======
-=======
-<<<<<<< HEAD
-    x: 1304.6666
-    y: 0
-    width: 402
-    height: 926
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-=======
-    x: 1466
-    y: 0
-    width: 454
-    height: 947
->>>>>>> origin/main
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
->>>>>>> Kahraman
->>>>>>> main
->>>>>>> Alper
-=======
-    x: 1481
-    y: 0
-    width: 462
-    height: 887
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
->>>>>>> Alper
   m_Panes:
   - {fileID: 13}
   m_Selected: 0
@@ -175,33 +92,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 484
-<<<<<<< HEAD
-    height: 769
-=======
-    height: 772
-<<<<<<< HEAD
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-=======
-=======
-<<<<<<< HEAD
-    width: 322.66666
-    height: 550
->>>>>>> origin/main
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
->>>>>>> main
-  m_ActualView: {fileID: 15}
-=======
-    width: 363
-    height: 561
->>>>>>> Alper
-=======
-    width: 363
-    height: 523
->>>>>>> Alper
+    width: 319.33334
+    height: 541.3333
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -225,15 +117,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 769
-    width: 1954
-    height: 530
-=======
-    y: 523
-    width: 1481
-    height: 364
->>>>>>> Alper
+    y: 541.3333
+    width: 1293.3334
+    height: 370
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
@@ -262,13 +148,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 2560
-    height: 1349
-=======
-    width: 1943
-    height: 937
->>>>>>> Alper
+    width: 1692
+    height: 961.3333
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -292,11 +173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 2560
-=======
-    width: 1943
->>>>>>> Alper
+    width: 1692
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -317,13 +194,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 1329
-    width: 2560
-=======
-    y: 917
-    width: 1943
->>>>>>> Alper
+    y: 941.3333
+    width: 1692
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -346,50 +218,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1954
-    height: 1299
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-<<<<<<< HEAD
-  controlID: 72
-=======
-<<<<<<< HEAD
-  controlID: 28
-=======
-  controlID: 58
-=======
-<<<<<<< HEAD
-    width: 1304.6666
-    height: 926
+    width: 1293.3334
+    height: 911.3333
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-<<<<<<< HEAD
-  controlID: 77
-=======
-    width: 1466
-    height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 83
->>>>>>> Kahraman
->>>>>>> origin/main
->>>>>>> main
->>>>>>> Alper
-=======
-    width: 1481
-    height: 887
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 49
->>>>>>> Alper
-=======
-  controlID: 65
->>>>>>> TeamBranch
+  controlID: 111
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -409,50 +243,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1954
-    height: 769
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 73
-=======
-<<<<<<< HEAD
-  controlID: 29
-=======
-  controlID: 59
-=======
-<<<<<<< HEAD
-    width: 1304.6666
-    height: 550
+    width: 1293.3334
+    height: 541.3333
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 78
-=======
-    width: 1466
-    height: 561
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 84
->>>>>>> Kahraman
->>>>>>> origin/main
->>>>>>> main
->>>>>>> Alper
-=======
-    width: 1481
-    height: 523
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 50
->>>>>>> Alper
-=======
-  controlID: 66
->>>>>>> TeamBranch
+  controlID: 112
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -463,45 +259,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-  m_Name: 
-=======
-  m_Name: GameView
->>>>>>> TeamBranch
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 484
+    x: 319.33334
     y: 0
-    width: 1470
-    height: 769
-=======
-    x: 363
-    y: 0
-    width: 1118
-    height: 523
->>>>>>> Alper
+    width: 974
+    height: 541.3333
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-<<<<<<< HEAD
   m_ActualView: {fileID: 15}
-=======
-  m_ActualView: {fileID: 17}
->>>>>>> TeamBranch
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 1
-=======
-  - {fileID: 17}
-  - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
->>>>>>> TeamBranch
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -518,21 +292,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 842
-    width: 1953
-    height: 509
-=======
-    x: 130
-    y: 719
-    width: 1480
-    height: 343
->>>>>>> Alper
+    x: 7.3333335
+    y: 621.3334
+    width: 1292.3334
+    height: 349
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -550,71 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets/Art
-=======
-    - Assets/Art/Prefab
->>>>>>> Alper
-=======
-    - Assets/Art/Drawings
->>>>>>> TeamBranch
+    - Assets/Art/Scene
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Assets/Art
-=======
-  - Assets/Art/Prefab
->>>>>>> Alper
-=======
-  - Assets/Art/Drawings
->>>>>>> TeamBranch
+  - Assets/Art/Scene
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity\Astro_Express_Mystery-_of_The_4
+  m_LastProjectPath: "C:\\Users\\berka\\OneDrive\\Masa\xFCst\xFC\\Berkay_Stuff\\ISU_Folder\\Astro_Express_Mystery-_of_The_4"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< HEAD
-<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-    m_SelectedIDs: 4a650000
-    m_LastClickedID: 25930
-    m_ExpandedIDs: 00000000486500004a65000000ca9a3bffffff7f
-=======
-<<<<<<< HEAD
-    m_SelectedIDs: d0650000
-    m_LastClickedID: 26064
-    m_ExpandedIDs: 0000000012650000146500008865000000ca9a3bffffff7f
-=======
-<<<<<<< HEAD
-    m_SelectedIDs: d0730000
-    m_LastClickedID: 29648
-    m_ExpandedIDs: 00000000087300000a7300007673000000ca9a3bffffff7f
-=======
-    m_SelectedIDs: fe610000
-    m_LastClickedID: 25086
-    m_ExpandedIDs: 00000000ee61000000ca9a3b
->>>>>>> Kahraman
->>>>>>> origin/main
->>>>>>> main
->>>>>>> Alper
-=======
-    scrollPos: {x: 0, y: 45}
-    m_SelectedIDs: 94650000
-    m_LastClickedID: 26004
-    m_ExpandedIDs: 000000001265000014650000166500009465000000ca9a3bffffff7f
->>>>>>> Alper
-=======
-    scrollPos: {x: 0, y: 33}
-    m_SelectedIDs: 18660000
-    m_LastClickedID: 26136
-    m_ExpandedIDs: 00000000b8650000c065000000ca9a3bffffff7f
->>>>>>> TeamBranch
+    m_SelectedIDs: 94800000
+    m_LastClickedID: 32916
+    m_ExpandedIDs: 00000000f06500005666000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,31 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000486500004a650000
-=======
-<<<<<<< HEAD
-    m_ExpandedIDs: 000000001265000014650000
-=======
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000087300000a730000
-=======
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000b2660000
-=======
-    m_ExpandedIDs: 00000000ee610000
->>>>>>> Kahraman
->>>>>>> origin/main
->>>>>>> main
->>>>>>> Alper
-=======
-    m_ExpandedIDs: 00000000126500001465000016650000
->>>>>>> Alper
-=======
-    m_ExpandedIDs: 00000000b8650000
->>>>>>> TeamBranch
+    m_ExpandedIDs: 00000000f0650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -694,7 +388,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000066000046790000
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -738,21 +432,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1954
-    y: 73
-    width: 605
-    height: 1278
-=======
-    x: 1611
-    y: 196
-    width: 461
-    height: 866
->>>>>>> Alper
+    x: 1300.6667
+    y: 80
+    width: 397.66663
+    height: 890.3333
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -786,21 +473,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 73
-    width: 483
-    height: 748
-=======
-    x: 130
-    y: 196
-    width: 362
-    height: 502
->>>>>>> Alper
+    x: 7.3333335
+    y: 80
+    width: 318.33334
+    height: 520.3333
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -808,40 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_SelectedIDs: 4a650000
-      m_LastClickedID: 0
-<<<<<<< HEAD
-      m_ExpandedIDs: f6faffff
-=======
-<<<<<<< HEAD
-      m_ExpandedIDs: 1afbffff
-=======
-      m_ExpandedIDs: 68efffff
-=======
-<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 10b9ffff22b9ffffb0baffff2cf1ffff3af3ffff08f7ffff1cf7ffffaaf9ffff726500008465000094650000de650000
-=======
-      m_SelectedIDs: fe610000
-      m_LastClickedID: 0
-      m_ExpandedIDs: d0f5ffff9cf6fffff4f7ffff6ef8ffff64faffff
->>>>>>> Kahraman
->>>>>>> origin/main
->>>>>>> main
->>>>>>> Alper
-=======
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 26fbffff
->>>>>>> Alper
-=======
-      m_SelectedIDs: 18660000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 86f9ffff0cfbffff
->>>>>>> TeamBranch
+      m_ExpandedIDs: 00f2ffffbaf3ffff90faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -881,21 +530,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 484
-    y: 73
-    width: 1468
-    height: 748
-=======
-    x: 493
-    y: 196
-    width: 1116
-    height: 502
->>>>>>> Alper
+    x: 326.6667
+    y: 80
+    width: 972
+    height: 520.3333
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -906,7 +548,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -26}
+      snapOffsetDelta: {x: -98.66669, y: -26}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -1152,45 +794,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -5.180843, y: -2.174698, z: 0.13479814}
     speed: 2
-    m_Value: {x: 2.4970539, y: 0.17661855, z: 0.009170881}
-=======
-<<<<<<< HEAD
-    m_Target: {x: 2.4970539, y: 0.17661855, z: 0.009170881}
-    speed: 2
-    m_Value: {x: 1.9859374, y: 0.17349818, z: 0.013695411}
-=======
-<<<<<<< HEAD
-    m_Target: {x: 0.4491403, y: -0.061150346, z: 0.050678007}
-    speed: 2
-    m_Value: {x: 0.4491403, y: -0.061150346, z: 0.050678007}
-=======
-<<<<<<< HEAD
-    m_Target: {x: 6.0123734, y: -1.789761, z: -0.018777773}
-    speed: 2
-    m_Value: {x: 6.0123734, y: -1.789761, z: -0.018777773}
-=======
-    m_Target: {x: -0.83934563, y: 0.040390432, z: 0.018880792}
-    speed: 2
-    m_Value: {x: -0.8997852, y: -0.0702448, z: 0.024146277}
->>>>>>> Kahraman
->>>>>>> origin/main
->>>>>>> main
->>>>>>> Alper
-=======
-    m_Target: {x: -0.2581656, y: -0.44547197, z: -0.009379665}
-    speed: 2
-    m_Value: {x: -0.8873113, y: -0.54309803, z: -0.0050769076}
->>>>>>> Alper
-=======
-    m_Target: {x: -3.530784, y: -1.283683, z: -0.068242}
-    speed: 2
-    m_Value: {x: -3.530784, y: -1.283683, z: -0.068242}
->>>>>>> TeamBranch
+    m_Value: {x: -5.137478, y: -2.193849, z: 0.13642707}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1221,7 +827,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1241,39 +847,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: 10
+    m_Target: 3.7827523
     speed: 2
-    m_Value: 10.506988
-=======
-<<<<<<< HEAD
-    m_Target: 10.506988
-    speed: 2
-    m_Value: 10.054534
-=======
-<<<<<<< HEAD
-    m_Target: 9.426396
-    speed: 2
-    m_Value: 9.426396
-=======
-<<<<<<< HEAD
-    m_Target: 9.085284
-    speed: 2
-    m_Value: 9.085284
-=======
-    m_Target: 12.227476
-    speed: 2
-    m_Value: 11.700934
->>>>>>> Kahraman
->>>>>>> origin/main
->>>>>>> main
->>>>>>> Alper
-=======
-    m_Target: 9.992007
-    speed: 2
-    m_Value: 9.561729
->>>>>>> Alper
+    m_Value: 3.6198587
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1314,21 +890,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
-=======
-    x: 484
-    y: 73
-    width: 1468
-    height: 748
->>>>>>> Alper
+    x: 326.6667
+    y: 80
+    width: 972
+    height: 520.3333
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1339,46 +908,31 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-  m_TargetSize: {x: 1532, y: 769}
-=======
   m_TargetSize: {x: 1920, y: 1080}
->>>>>>> Alper
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-<<<<<<< HEAD
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-=======
   m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
->>>>>>> Alper
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-    m_HBaseRangeMin: -766
-    m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -384.5
-    m_VBaseRangeMax: 384.5
-=======
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
->>>>>>> Alper
+    m_HBaseRangeMin: -640
+    m_HBaseRangeMax: 640
+    m_VBaseRangeMin: -360
+    m_VBaseRangeMax: 360
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -1390,40 +944,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-      width: 1532
-      height: 769
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 384.5}
-=======
-      width: 1468
-      height: 727
-    m_Scale: {x: 0.67314816, y: 0.67314816}
-    m_Translation: {x: 734, y: 363.5}
->>>>>>> Alper
+      width: 972
+      height: 499.3333
+    m_Scale: {x: 1.3842336, y: 1.3842336}
+    m_Translation: {x: 509.3229, y: 170.85223}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-      x: -766
-      y: -384.5
-      width: 1532
-      height: 769
+      x: -367.94577
+      y: -123.427315
+      width: 702.1936
+      height: 360.7291
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1532, y: 790}
-=======
-      x: -1090.3989
-      y: -540
-      width: 2180.7979
-      height: 1080
-    m_MinimalGUI: 1
-  m_defaultScale: 0.67314816
-  m_LastWindowPixelSize: {x: 1468, y: 748}
->>>>>>> Alper
+  m_defaultScale: 0.6935185
+  m_LastWindowPixelSize: {x: 1458, y: 780.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1445,21 +982,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 2249
     y: 726.5
     width: 920
     height: 250
-=======
-    x: 298
-    y: 775
-    width: 1302
-    height: 360
->>>>>>> Alper
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
