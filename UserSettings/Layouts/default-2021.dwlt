@@ -15,23 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 43
     width: 2560
     height: 1349
-=======
-<<<<<<< HEAD
-    y: 42.666668
-    width: 1706.6667
-    height: 976
-=======
-    y: 43
-    width: 1920
-    height: 997
->>>>>>> Kahraman
->>>>>>> origin/main
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -55,30 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
     width: 2560
     height: 1299
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 57
-=======
-<<<<<<< HEAD
-    width: 1706.6666
-    height: 926
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 23
-=======
-    width: 1920
-    height: 947
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 82
->>>>>>> Kahraman
->>>>>>> origin/main
+  controlID: 21
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,35 +59,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1957
+    x: 1954
     y: 0
-    width: 603
+    width: 606
     height: 1299
-=======
-<<<<<<< HEAD
-    x: 1304.6666
-    y: 0
-    width: 402
-    height: 926
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
-=======
-    x: 1466
-    y: 0
-    width: 454
-    height: 947
->>>>>>> origin/main
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
->>>>>>> Kahraman
   m_Panes:
   - {fileID: 13}
   m_Selected: 0
@@ -139,24 +92,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 484
-    height: 772
-=======
-<<<<<<< HEAD
-    width: 322.66666
-    height: 550
->>>>>>> origin/main
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
-=======
-    width: 363
-    height: 561
+    height: 769
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
->>>>>>> Kahraman
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
@@ -177,21 +117,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 772
-    width: 1957
-    height: 527
-=======
-<<<<<<< HEAD
-    y: 550
-    width: 1304.6666
-    height: 376
-=======
-    y: 561
-    width: 1466
-    height: 386
->>>>>>> Kahraman
->>>>>>> origin/main
+    y: 769
+    width: 1954
+    height: 530
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
@@ -220,18 +148,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 2560
     height: 1349
-=======
-<<<<<<< HEAD
-    width: 1706.6666
-    height: 976
-=======
-    width: 1920
-    height: 997
->>>>>>> Kahraman
->>>>>>> origin/main
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -255,15 +173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 2560
-=======
-<<<<<<< HEAD
-    width: 1706.6666
-=======
-    width: 1920
->>>>>>> Kahraman
->>>>>>> origin/main
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -284,18 +194,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 1329
     width: 2560
-=======
-<<<<<<< HEAD
-    y: 956
-    width: 1706.6666
-=======
-    y: 977
-    width: 1920
->>>>>>> Kahraman
->>>>>>> origin/main
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -318,30 +218,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1957
+    width: 1954
     height: 1299
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 58
-=======
-<<<<<<< HEAD
-    width: 1304.6666
-    height: 926
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 77
-=======
-    width: 1466
-    height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 83
->>>>>>> Kahraman
->>>>>>> origin/main
+  controlID: 72
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -361,30 +243,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1957
-    height: 772
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
+    width: 1954
+    height: 769
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 59
-=======
-<<<<<<< HEAD
-    width: 1304.6666
-    height: 550
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 78
-=======
-    width: 1466
-    height: 561
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 84
->>>>>>> Kahraman
->>>>>>> origin/main
+  controlID: 73
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,43 +259,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 484
     y: 0
-    width: 1473
-    height: 772
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
-=======
-<<<<<<< HEAD
-    x: 322.66666
-    y: 0
-    width: 982
-    height: 550
-=======
-    x: 363
-    y: 0
-    width: 1103
-    height: 561
->>>>>>> Kahraman
+    width: 1470
+    height: 769
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
->>>>>>> origin/main
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-<<<<<<< HEAD
-  - {fileID: 17}
-  - {fileID: 12}
-=======
->>>>>>> origin/main
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -442,37 +284,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 800, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Package Manager
-    m_Image: {fileID: 5076950121296946556, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 327.33334
-    y: 80
-    width: 970.6666
-    height: 523.6667
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-=======
->>>>>>> Kahraman
   m_EditorHideFlags: 1
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -486,21 +297,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 845
-    width: 1956
-    height: 506
-=======
-<<<<<<< HEAD
-    y: 622.6667
-    width: 1303.6666
-    height: 355
-=======
-    y: 634
-    width: 1465
-    height: 365
->>>>>>> Kahraman
->>>>>>> origin/main
+    y: 842
+    width: 1953
+    height: 509
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -518,53 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-    - Assets/Art/Prefab/Background
-=======
-<<<<<<< HEAD
-    - Assets
-=======
-    - Assets/Script_Kahraman
->>>>>>> Kahraman
->>>>>>> origin/main
+    - Assets/Art
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-  - Assets/Art/Prefab/Background
-=======
-<<<<<<< HEAD
-  - Assets
->>>>>>> origin/main
+  - Assets/Art
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity\Astro_Express_Mystery-_of_The_4
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 33}
-    m_SelectedIDs: b2660000
-    m_LastClickedID: 26290
-    m_ExpandedIDs: 00000000b2660000c6660000cc660000f672000054740000ca7a000000ca9a3bffffff7f
-=======
-  - Assets/Script_Kahraman
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\kahra\OneDrive\Belgeler\Astro_Express_Mystery-_of_The_4
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-    m_SelectedIDs: d0730000
-    m_LastClickedID: 29648
-    m_ExpandedIDs: 00000000087300000a7300007673000000ca9a3bffffff7f
-=======
-    m_SelectedIDs: fe610000
-    m_LastClickedID: 25086
-    m_ExpandedIDs: 00000000ee61000000ca9a3b
->>>>>>> Kahraman
->>>>>>> origin/main
+    m_SelectedIDs: 4a650000
+    m_LastClickedID: 25930
+    m_ExpandedIDs: 00000000486500004a65000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,15 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000087300000a730000
-=======
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000b2660000
-=======
-    m_ExpandedIDs: 00000000ee610000
->>>>>>> Kahraman
->>>>>>> origin/main
+    m_ExpandedIDs: 00000000486500004a650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +404,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -676,24 +436,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1957
+    x: 1954
     y: 73
-    width: 602
+    width: 605
     height: 1278
-=======
-<<<<<<< HEAD
-    x: 1304.6667
-    y: 72.66667
-    width: 401
-    height: 905
-=======
-    x: 1466
-    y: 73
-    width: 453
-    height: 926
->>>>>>> Kahraman
->>>>>>> origin/main
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -732,21 +478,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 73
     width: 483
-    height: 751
-=======
-<<<<<<< HEAD
-    y: 72.66667
-    width: 321.66666
-    height: 529
-=======
-    y: 73
-    width: 362
-    height: 540
->>>>>>> Kahraman
->>>>>>> origin/main
+    height: 748
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -754,21 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-      m_SelectedIDs: 
+      m_SelectedIDs: 4a650000
       m_LastClickedID: 0
-      m_ExpandedIDs: 68efffff
-=======
-<<<<<<< HEAD
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 10b9ffff22b9ffffb0baffff2cf1ffff3af3ffff08f7ffff1cf7ffffaaf9ffff726500008465000094650000de650000
-=======
-      m_SelectedIDs: fe610000
-      m_LastClickedID: 0
-      m_ExpandedIDs: d0f5ffff9cf6fffff4f7ffff6ef8ffff64faffff
->>>>>>> Kahraman
->>>>>>> origin/main
+      m_ExpandedIDs: f6faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -784,7 +506,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -812,24 +534,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 484
     y: 73
-    width: 1471
-    height: 751
-=======
-<<<<<<< HEAD
-    x: 322.6667
-    y: 72.66667
-    width: 980
-    height: 529
-=======
-    x: 363
-    y: 73
-    width: 1101
-    height: 540
->>>>>>> Kahraman
->>>>>>> origin/main
+    width: 1468
+    height: 748
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -839,13 +547,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-<<<<<<< HEAD
-      snapOffset: {x: -101, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
-=======
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: -101, y: -26}
->>>>>>> Kahraman
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -855,9 +558,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: -177}
+      snapOffset: {x: -141, y: 149}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -1091,21 +794,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 0.4491403, y: -0.061150346, z: 0.050678007}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 0.4491403, y: -0.061150346, z: 0.050678007}
-=======
-<<<<<<< HEAD
-    m_Target: {x: 6.0123734, y: -1.789761, z: -0.018777773}
-    speed: 2
-    m_Value: {x: 6.0123734, y: -1.789761, z: -0.018777773}
-=======
-    m_Target: {x: -0.83934563, y: 0.040390432, z: 0.018880792}
-    speed: 2
-    m_Value: {x: -0.8997852, y: -0.0702448, z: 0.024146277}
->>>>>>> Kahraman
->>>>>>> origin/main
+    m_Value: {x: 2.4970539, y: 0.17661855, z: 0.009170881}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1136,7 +827,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1156,21 +847,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-    m_Target: 9.426396
+    m_Target: 10
     speed: 2
-    m_Value: 9.426396
-=======
-<<<<<<< HEAD
-    m_Target: 9.085284
-    speed: 2
-    m_Value: 9.085284
-=======
-    m_Target: 12.227476
-    speed: 2
-    m_Value: 11.700934
->>>>>>> Kahraman
->>>>>>> origin/main
+    m_Value: 10.506988
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1215,24 +894,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 484
-    y: 73
-    width: 1471
-    height: 751
-=======
-<<<<<<< HEAD
-    x: 322.6667
-    y: 72.66667
-    width: 980
-    height: 529
-=======
-    x: 363
-    y: 73
-    width: 1101
-    height: 540
->>>>>>> Kahraman
->>>>>>> origin/main
+    x: 507
+    y: 94
+    width: 1532
+    height: 790
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1243,47 +908,25 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-  m_TargetSize: {x: 1920, y: 1080}
-=======
-  m_TargetSize: {x: 1101, y: 519}
->>>>>>> Kahraman
+  m_TargetSize: {x: 1532, y: 769}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
+  m_RenderIMGUI: 0
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-<<<<<<< HEAD
-  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
-=======
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
->>>>>>> Kahraman
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
-=======
-<<<<<<< HEAD
-    m_HBaseRangeMin: -640
-    m_HBaseRangeMax: 640
-    m_VBaseRangeMin: -360
-    m_VBaseRangeMax: 360
-=======
-    m_HBaseRangeMin: -550.5
-    m_HBaseRangeMax: 550.5
-    m_VBaseRangeMin: -259.5
-    m_VBaseRangeMax: 259.5
->>>>>>> Kahraman
->>>>>>> origin/main
+    m_HBaseRangeMin: -766
+    m_HBaseRangeMax: 766
+    m_VBaseRangeMin: -384.5
+    m_VBaseRangeMax: 384.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1292,7 +935,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1301,57 +944,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-      width: 1471
-      height: 730
-    m_Scale: {x: 0.67592597, y: 0.6759259}
-    m_Translation: {x: 735.50006, y: 365}
-=======
-<<<<<<< HEAD
-      width: 980
-      height: 508
-    m_Scale: {x: 0.74852383, y: 0.74852383}
-    m_Translation: {x: 490, y: 260.3839}
-=======
-      width: 1101
-      height: 519
+      width: 1532
+      height: 769
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 550.5, y: 259.5}
->>>>>>> Kahraman
->>>>>>> origin/main
+    m_Translation: {x: 766, y: 384.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-      x: -1088.137
-      y: -540
-      width: 2176.274
-      height: 1080
-    m_MinimalGUI: 1
-  m_defaultScale: 0.6759259
-  m_LastWindowPixelSize: {x: 1471, y: 751}
-=======
-<<<<<<< HEAD
-      x: -654.62177
-      y: -347.86322
-      width: 1309.2435
-      height: 678.6691
-    m_MinimalGUI: 1
-  m_defaultScale: 0.70555556
-  m_LastWindowPixelSize: {x: 1470, y: 793.5}
-=======
-      x: -550.5
-      y: -259.5
-      width: 1101
-      height: 519
+      x: -766
+      y: -384.5
+      width: 1532
+      height: 769
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1101, y: 540}
->>>>>>> Kahraman
->>>>>>> origin/main
+  m_LastWindowPixelSize: {x: 1532, y: 790}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1377,22 +986,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-<<<<<<< HEAD
-    y: 845
-    width: 1956
-    height: 506
-=======
-<<<<<<< HEAD
-    y: 622.6667
-    width: 1303.6666
-    height: 355
-=======
-    y: 634
-    width: 1465
-    height: 365
->>>>>>> Kahraman
->>>>>>> origin/main
+    x: 2249
+    y: 726.5
+    width: 920
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
