@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 5073781463570068184}
   - component: {fileID: 5073781463570068183}
   - component: {fileID: 5073781463570068182}
+  - component: {fileID: 8513282367056110689}
+  - component: {fileID: 5817549941761093151}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Untagged
@@ -105,3 +107,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &8513282367056110689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5073781463570068181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d73bd6985a61f4193193c2d82750d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkMove: 0
+  walkSpeed: 20
+  minion1Sprite: {fileID: 0}
+  minion2Sprite: {fileID: 0}
+  controller: {fileID: 0}
+--- !u!114 &5817549941761093151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5073781463570068181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0ca3aeb8728e34ab5e1664fe19d479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _MovementSmoothing: 0.05
