@@ -14,12 +14,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 7.3333335
     y: 50
     width: 1692
     height: 962
   m_ShowMode: 4
   m_Title: Hierarchy
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 0
+    y: 42.666668
+    width: 1706.6667
+    height: 976
+  m_ShowMode: 4
+  m_Title: Game
+=======
+    x: 134
+    y: 232
+    width: 1578
+    height: 910
+=======
+    x: 0
+    y: 43
+    width: 2560
+    height: 1349
+>>>>>>> origin/Alper
+  m_ShowMode: 4
+  m_Title: Inspector
+>>>>>>> origin/Alper
+>>>>>>> main
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,12 +68,34 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1692
     height: 912
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
   controlID: 17
+=======
+<<<<<<< HEAD
+    width: 1706.6666
+    height: 926
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 47
+=======
+  controlID: 69
+>>>>>>> origin/Alper
+=======
+    width: 2560
+    height: 1299
+  m_MinSize: {x: 503, y: 321}
+  m_MaxSize: {x: 16192, y: 12117}
+  vertical: 0
+  controlID: 34
+>>>>>>> origin/Alper
+>>>>>>> main
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,10 +111,24 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1292
     y: 0
     width: 400
     height: 912
+=======
+<<<<<<< HEAD
+    x: 1303.3334
+    y: 0
+    width: 403.33325
+    height: 926
+=======
+    x: 2059
+    y: 0
+    width: 501
+    height: 1299
+>>>>>>> origin/Alper
+>>>>>>> main
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -92,8 +153,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 319.33334
     height: 541.3333
+=======
+<<<<<<< HEAD
+    width: 322
+    height: 548
+=======
+    width: 475
+    height: 831
+>>>>>>> origin/Alper
+>>>>>>> main
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -117,9 +188,21 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 541.3333
     width: 1292
     height: 370.6667
+=======
+<<<<<<< HEAD
+    y: 548
+    width: 1303.3334
+    height: 378
+=======
+    y: 831
+    width: 2059
+    height: 468
+>>>>>>> origin/Alper
+>>>>>>> main
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
@@ -148,8 +231,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1692
     height: 962
+=======
+<<<<<<< HEAD
+    width: 1706.6666
+    height: 976
+=======
+    width: 2560
+    height: 1349
+>>>>>>> origin/Alper
+>>>>>>> main
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -173,7 +266,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1692
+=======
+<<<<<<< HEAD
+    width: 1706.6666
+=======
+    width: 2560
+>>>>>>> origin/Alper
+>>>>>>> main
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -194,8 +295,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 942
     width: 1692
+=======
+<<<<<<< HEAD
+    y: 956
+    width: 1706.6666
+=======
+    y: 1329
+    width: 2560
+>>>>>>> origin/Alper
+>>>>>>> main
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -218,12 +329,34 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1292
     height: 912
   m_MinSize: {x: 403, y: 321}
   m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
   controlID: 102
+=======
+<<<<<<< HEAD
+    width: 1303.3334
+    height: 926
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+<<<<<<< HEAD
+  controlID: 52
+=======
+  controlID: 70
+>>>>>>> origin/Alper
+=======
+    width: 2059
+    height: 1299
+  m_MinSize: {x: 403, y: 321}
+  m_MaxSize: {x: 8096, y: 12117}
+  vertical: 1
+  controlID: 18
+>>>>>>> origin/Alper
+>>>>>>> main
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,12 +376,34 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1292
     height: 541.3333
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 103
+=======
+<<<<<<< HEAD
+    width: 1303.3334
+    height: 548
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 53
+=======
+  controlID: 71
+>>>>>>> origin/Alper
+=======
+    width: 2059
+    height: 831
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 19
+>>>>>>> origin/Alper
+>>>>>>> main
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,10 +419,24 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 319.33334
     y: 0
     width: 972.6666
     height: 541.3333
+=======
+<<<<<<< HEAD
+    x: 322
+    y: 0
+    width: 981.3334
+    height: 548
+=======
+    x: 475
+    y: 0
+    width: 1584
+    height: 831
+>>>>>>> origin/Alper
+>>>>>>> main
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -296,10 +465,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 7.3333335
     y: 621.3334
     width: 1291
     height: 349.6667
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 0
+    y: 620.6667
+    width: 1302.3334
+    height: 357
+=======
+    x: 134
+    y: 775
+    width: 1268
+    height: 326
+>>>>>>> origin/Alper
+=======
+    x: 0
+    y: 904
+    width: 2058
+    height: 447
+>>>>>>> origin/Alper
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -317,22 +507,67 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/MainGame
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    - Assets/Script_Berkay
+=======
+    - Assets/Art/Drawings/ButtonandOther
+>>>>>>> origin/Alper
+=======
+    - Assets/Art/Prefab/PrefabObjects
+>>>>>>> origin/Alper
+>>>>>>> main
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/MainGame
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - Assets/Script_Berkay
+=======
+  - Assets/Art/Drawings/ButtonandOther
+>>>>>>> origin/Alper
+=======
+  - Assets/Art/Prefab/PrefabObjects
+>>>>>>> origin/Alper
+>>>>>>> main
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\berka\\OneDrive\\Masa\xFCst\xFC\\Berkay_Stuff\\ISU_Folder\\Astro_Express_Mystery-_of_The_4"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 58660000
     m_LastClickedID: 26200
     m_ExpandedIDs: 000000004466000000ca9a3bffffff7f
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: d0780000
+    m_LastClickedID: 30928
+    m_ExpandedIDs: 00000000c46500001a6d000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 06690000
+    m_LastClickedID: 26886
+    m_ExpandedIDs: 00000000f4680000f6680000f868000000ca9a3bffffff7f
+>>>>>>> origin/Alper
+=======
+    scrollPos: {x: 0, y: 69}
+    m_SelectedIDs: 426e0000
+    m_LastClickedID: 28226
+    m_ExpandedIDs: 000000000c6900000e690000106900009c6900009e69000000ca9a3bffffff7f
+>>>>>>> origin/Alper
+>>>>>>> main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +595,19 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000044660000
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000c4650000
+=======
+    m_ExpandedIDs: 00000000f4680000f6680000f8680000
+>>>>>>> origin/Alper
+=======
+    m_ExpandedIDs: 000000000c6900000e69000010690000
+>>>>>>> origin/Alper
+>>>>>>> main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -388,7 +635,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000fa6d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -436,10 +683,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1299.3334
     y: 80
     width: 399
     height: 891
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1303.3334
+    y: 72.66667
+    width: 402.33325
+    height: 905
+=======
+    x: 1403
+    y: 262
+    width: 308
+    height: 839
+>>>>>>> origin/Alper
+=======
+    x: 2059
+    y: 73
+    width: 500
+    height: 1278
+>>>>>>> origin/Alper
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -477,10 +745,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 7.3333335
     y: 80
     width: 318.33334
     height: 520.3333
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 0
+    y: 72.66667
+    width: 321
+    height: 527
+=======
+    x: 134
+    y: 262
+    width: 292
+    height: 492
+>>>>>>> origin/Alper
+=======
+    x: 0
+    y: 73
+    width: 474
+    height: 810
+>>>>>>> origin/Alper
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -488,9 +777,27 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 76830000
       m_LastClickedID: 33654
       m_ExpandedIDs: 60f8ffffb4faffff
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      m_SelectedIDs: f6f8ffff
+      m_LastClickedID: -1802
+      m_ExpandedIDs: 16fbffff
+=======
+      m_SelectedIDs: 7ceeffff
+      m_LastClickedID: -4484
+      m_ExpandedIDs: e6f1ffff26fbffffe6630000f2630000
+>>>>>>> origin/Alper
+=======
+      m_SelectedIDs: ded3ffff
+      m_LastClickedID: -11298
+      m_ExpandedIDs: fef5ffff26fbffff
+>>>>>>> origin/Alper
+>>>>>>> main
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: PlayButton
@@ -534,10 +841,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 326.6667
     y: 80
     width: 970.6666
     height: 520.3333
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 322
+    y: 72.66667
+    width: 979.3334
+    height: 527
+=======
+    x: 427
+    y: 262
+    width: 974
+    height: 492
+>>>>>>> origin/Alper
+=======
+    x: 475
+    y: 73
+    width: 1582
+    height: 810
+>>>>>>> origin/Alper
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -794,9 +1122,27 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 1362.6028, y: 105.40915, z: -6.6199875}
     speed: 2
     m_Value: {x: 1325.5853, y: 126.859924, z: -6.0688267}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: -1.3986607, y: -1.4731241, z: 0.049688905}
+    speed: 2
+    m_Value: {x: -1.3986607, y: -1.4731241, z: 0.049688905}
+=======
+    m_Target: {x: 2.1139808, y: -0.85215557, z: -0.5872202}
+    speed: 2
+    m_Value: {x: 1.4345347, y: -1.1452215, z: -0.58382297}
+>>>>>>> origin/Alper
+=======
+    m_Target: {x: -2.1619868, y: 0.58301574, z: -0.44666153}
+    speed: 2
+    m_Value: {x: -2.1382618, y: 0.43695894, z: -0.44293228}
+>>>>>>> origin/Alper
+>>>>>>> main
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -847,9 +1193,27 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 1279.9302
     speed: 2
     m_Value: 1224.8136
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: 6.192409
+    speed: 2
+    m_Value: 6.192409
+=======
+    m_Target: 7.88913
+    speed: 2
+    m_Value: 7.549407
+>>>>>>> origin/Alper
+=======
+    m_Target: 8.660191
+    speed: 2
+    m_Value: 8.287264
+>>>>>>> origin/Alper
+>>>>>>> main
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -894,10 +1258,29 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 326.6667
     y: 80
     width: 970.6666
     height: 520.3333
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 322
+    y: 72.66667
+    width: 979.3334
+    height: 527
+=======
+    x: 427
+    y: 262
+=======
+    x: 603
+    y: 315
+>>>>>>> origin/Alper
+    width: 974
+    height: 492
+>>>>>>> origin/Alper
+>>>>>>> main
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
