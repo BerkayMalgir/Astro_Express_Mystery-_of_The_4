@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - InfirmaryTrigger
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -41,18 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-<<<<<<< HEAD
-  - name: 1
-    uniqueID: 2073747715
-    locked: 0
-  - name: 2
-    uniqueID: 575787783
-=======
-  - name: Triangle
-    uniqueID: 860636411
-    locked: 0
-  - name: Square
-    uniqueID: 3238989113
->>>>>>> TeamBranch
     locked: 0
