@@ -44,18 +44,23 @@ public class DoorScript : MonoBehaviour
             {
                 case "ColonelTrigger":
                     roomManager.CreateRoom(roomManager.colonelRoom);
+                    AdjustCharacterPosition(new Vector3(-10f, -2f, 0f));
                     break;
                 case "BarmenTrigger":
                     roomManager.CreateRoom(roomManager.barmenRoom);
+                    AdjustCharacterPosition(new Vector3(-19f, -6f, 0f));
                     break;
                 case "DiningHallTrigger":
                     roomManager.CreateRoom(roomManager.diningHall);
+                    AdjustCharacterPosition(new Vector3(-10f, -2f, 0f));
                     break;
                 case "InfirmaryTrigger":
                     roomManager.CreateRoom(roomManager.infirmaryRoom);
+                    AdjustCharacterPosition(new Vector3(-10f, -2f, 0f));
                     break;
                 case "CoridorTrigger":
                     roomManager.CreateRoom(roomManager.coridor);
+                    AdjustCharacterPosition(new Vector3(-10f, -2f, 0f));
                     break;
                 default:
                     Debug.LogWarning("Invalid target trigger name!");
@@ -63,4 +68,20 @@ public class DoorScript : MonoBehaviour
             }
         }
     }
-}
+    private void AdjustCharacterPosition(Vector3 newPosition)
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            player.transform.position = newPosition;
+        
+            // Move the camera along with the player
+            Camera.main.transform.position = new Vector3(newPosition.x, newPosition.y, Camera.main.transform.position.z);
+        }
+        else
+        {
+            Debug.LogWarning("Player object not found!");
+        }
+    }
+
+}   
