@@ -12,6 +12,11 @@ public class MainMenu : MonoBehaviour
     private bool _isPlay;
     public void startGame()
     {
+        mainMenu.SetActive(false);
+        inmainMenu.SetActive(false);
+        settingsMenu.SetActive(false);
+        pauseMenu.SetActive(false);
+        _isPlay = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
