@@ -42,11 +42,11 @@ public class PlayerMovement : MonoBehaviour
         
         if (walkMove < 0)
         {
-            transform.localScale = new Vector3(-12, 12, 1);
+            transform.localScale = new Vector3(-17, 17, 1);
         }
         else if (walkMove > 0)
         {
-            transform.localScale = new Vector3(12, 12, 1);
+            transform.localScale = new Vector3(17, 17, 1);
         }
     }
 
