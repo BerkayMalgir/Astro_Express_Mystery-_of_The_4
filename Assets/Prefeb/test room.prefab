@@ -809,7 +809,7 @@ PrefabInstance:
     - target: {fileID: 5072639829889618011, guid: f2c74ba23c441b5409093bdbe1b86cc7, type: 3}
       propertyPath: inkJSON
       value: 
-      objectReference: {fileID: 4900000, guid: dcb3f6392eb18be4d9e4cd3ba806293b, type: 3}
+      objectReference: {fileID: 4900000, guid: ffa45f0bdedb35c4ab1da02bf536f180, type: 3}
     - target: {fileID: 5072639829904621128, guid: f2c74ba23c441b5409093bdbe1b86cc7, type: 3}
       propertyPath: m_RootOrder
       value: 1

@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float speed = 5f; // Düþmanýn hareket hýzý
-    public float minY = 2f; // Düþmanýn hareket edebileceði minimum y konumu
-    public float maxY = 8f; // Düþmanýn hareket edebileceði maksimum y konumu
+    public float speed = 5f; 
+    public float minY = 2f; 
+    public float maxY = 8f; 
 
     private Rigidbody2D rb;
-    private bool movingUp = true; // Düþmanýn yukarý mý aþaðý mý hareket ettiðini belirleyen deðiþken
+    private bool movingUp = true; 
 
     void Start()
     {

@@ -2,112 +2,137 @@ using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
-    public float movementSpeed = 5f; // Ball movement speed
-    public int columnCount = 5; // Number of columns
-    public int rowCount = 3; // Number of rows
-    public Transform spawnPoint; // Spawn point empty object
-    private Transform[,] intersections; // Array of intersection transforms
-    private int currentRowIndex = 0; // Index of the current row
-    private int currentColumnIndex = 0; // Index of the current column
-    private Vector3 targetPosition; // Target position for transition
+    public float movementSpeed = 5f; // Top hareket hızı
+    public int columnCount = 5; // Sütun sayısı
+    public int rowCount = 3; // Satır sayısı
+    public Transform spawnPoint; // Oluşturma noktası boş nesnesi
 
-    private bool isMoving = false; // Flag to track if the character is moving
-    private Vector3 startPosition; // Starting position for the movement
-    private float movementStartTime; // Time when the movement started
-    private float movementDuration = 0.5f; // Duration of the movement in seconds
+    private Transform[,] intersections; // Kesişim noktalarının dizisi
+    private int currentRowIndex = 2; // Mevcut satırın indeksi
+    private int currentColumnIndex = 0; // Mevcut sütunun indeksi
+    private Vector3 targetPosition; // Geçiş için hedef pozisyon
 
-    void Start()
+    private bool isMoving = false; // Karakterin hareket edip etmediğini takip eden bayrak
+    private Vector3 startPosition; // Hareketin başlangıç noktası
+    private float movementStartTime; // Hareketin başlama zamanı
+    private float movementDuration = 0.5f; // Hareket süresi (saniye)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        intersections = new Transform[rowCount, columnCount]; // Initialize the intersections array
+        if (collision.CompareTag("DeathZone"))
+        {
+            ResetBallPosition();
+        }
+    }
 
-        // Calculate the position of each intersection point
-        float columnSpacing = 2f; // Spacing between columns
-        float rowSpacing = 2f; // Spacing between rows
+    private void ResetBallPosition()
+    {
+        // Topun yeniden doğma konumu için mevcut satır ve sütun indekslerini ayarla
+        currentRowIndex = 2;
+        currentColumnIndex = 0;
+
+        // Yeniden doğma indekslerine göre hedef pozisyonu hesapla
+        targetPosition = intersections[currentRowIndex, currentColumnIndex].position;
+
+        // Hareket değişkenlerini sıfırla
+        isMoving = false;
+        startPosition = targetPosition; // Başlangıç noktasını güncelle
+        movementStartTime = Time.time; // Hareketin başlama zamanını güncelle
+        transform.position = targetPosition;
+    }
+
+    private void Start()
+    {
+        intersections = new Transform[rowCount, columnCount]; // Kesişim noktalarının dizisini başlat
+
+        // Her bir kesişim noktasının pozisyonunu hesapla
+        float columnSpacing = 2f; // Sütunlar arası boşluk
+        float rowSpacing = 2f; // Satırlar arası boşluk
 
         for (int row = 0; row < rowCount; row++)
         {
             for (int column = 0; column < columnCount; column++)
             {
-                // Calculate the position based on the spacing and row/column index
+                // Boşluk ve satır/sütun indeksine göre pozisyonu hesapla
                 Vector3 position = spawnPoint.position + new Vector3(column * columnSpacing, row * rowSpacing, 0f);
 
-                // Instantiate an intersection object at the calculated position
+                // Hesaplanan pozisyonda bir kesişim nesnesi oluştur
                 GameObject intersectionObj = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 intersectionObj.transform.position = position;
-                intersectionObj.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); // Reduce the size of intersection objects
+                intersectionObj.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); // Kesişim nesnelerinin boyutunu küçült
 
-                // Assign the intersection object to the intersections array
+                // Kesişim nesnesini kesişimler dizisine atayın
                 intersections[row, column] = intersectionObj.transform;
             }
         }
 
-        targetPosition = intersections[currentRowIndex, currentColumnIndex].position; // Set the initial target position
+        targetPosition = intersections[currentRowIndex, currentColumnIndex].position; // İlk hedef pozisyonunu ayarla
 
-        // Set the visibility of intersection objects to false
+        // Kesişim nesnelerinin görünürlüğünü kapat
         SetIntersectionVisibility(false);
     }
 
-    void Update()
+    private void Update()
     {
-        // Called every frame
+        // Her karede çağrılır
 
-        // Check if the character is already moving
+        // Karakterin zaten hareket edip etmediğini kontrol et
         if (isMoving)
         {
-            // Calculate the time passed since the movement started
+            // Hareketin başladığından beri geçen süreyi hesapla
             float elapsedTime = Time.time - movementStartTime;
 
-            // Calculate the percentage of the movement completed
+            // Tamamlanan hareketin yüzdesini hesapla
             float percentageComplete = elapsedTime / movementDuration;
 
-            // Smoothly move towards the target position using Lerp
+            // Lerp kullanarak hedef pozisyona doğru yumuşak bir şekilde hareket et
             transform.position = Vector3.Lerp(startPosition, targetPosition, percentageComplete);
 
-            // Check if the movement is complete
+            // Hareketin tamamlanıp tamamlanmadığını kontrol et
             if (percentageComplete >= 1f)
             {
                 isMoving = false;
-                transform.position = targetPosition; // Ensure the final position is accurate
+                transform.position = targetPosition; // Son pozisyonun doğru olduğundan emin ol
             }
         }
         else
         {
-            // Check for input and start a new movement if available
+            // Girişleri kontrol et ve uygunsa yeni bir hareket başlat
 
-            // Check if the A key is pressed
+            // A tuşuna basılıp basılmadığını kontrol et
             if (Input.GetKeyDown(KeyCode.A))
             {
-                // Move to the previous column (if available)
+                // Önceki sütuna geç (mümkünse)
                 if (currentColumnIndex > 0)
                 {
                     currentColumnIndex--;
                     StartMovementToIntersection(intersections[currentRowIndex, currentColumnIndex].position);
                 }
             }
-            // Check if the D key is pressed
+            // D tuşuna basılıp basılmadığını kontrol et
             else if (Input.GetKeyDown(KeyCode.D))
             {
-                // Move to the next column (if available)
+                // Bir sonraki sütuna geç (mümkünse)
                 if (currentColumnIndex < columnCount - 1)
                 {
                     currentColumnIndex++;
                     StartMovementToIntersection(intersections[currentRowIndex, currentColumnIndex].position);
                 }
             }
-
-            if (Input.GetKeyDown(KeyCode.S))
+            // S tuşuna basılıp basılmadığını kontrol et
+            else if (Input.GetKeyDown(KeyCode.S))
             {
-                // Move to the previous row (if available)
+                // Önceki satıra geç (mümkünse)
                 if (currentRowIndex > 0)
                 {
                     currentRowIndex--;
                     StartMovementToIntersection(intersections[currentRowIndex, currentColumnIndex].position);
                 }
             }
-            // Check if the S key is pressed
+            // W tuşuna basılıp basılmadığını kontrol et
             else if (Input.GetKeyDown(KeyCode.W))
             {
-                // Move to the next row (if available)
+                // Bir sonraki satıra geç (mümkünse)
                 if (currentRowIndex < rowCount - 1)
                 {
                     currentRowIndex++;
@@ -116,7 +141,7 @@ public class BallMovement : MonoBehaviour
             }
         }
 
-        // Check if the V key is pressed to toggle intersection visibility
+        // V tuşuna basılıp basılmadığını kontrol et ve kesişimlerin görünürlüğünü değiştir
         if (Input.GetKeyDown(KeyCode.V))
         {
             bool isVisible = intersections[0, 0].gameObject.activeSelf;
@@ -124,8 +149,8 @@ public class BallMovement : MonoBehaviour
         }
     }
 
-    // Function to set the visibility of intersection objects
-    void SetIntersectionVisibility(bool isVisible)
+    // Kesişim nesnelerinin görünürlüğünü ayarlayan fonksiyon
+    private void SetIntersectionVisibility(bool isVisible)
     {
         foreach (Transform intersection in intersections)
         {
@@ -133,14 +158,14 @@ public class BallMovement : MonoBehaviour
         }
     }
 
-    // Function to start a new movement to the specified position
-    void StartMovementToIntersection(Vector3 destination)
+    // Belirli bir pozisyona yeni bir hareketi başlatan fonksiyon
+    private void StartMovementToIntersection(Vector3 destination)
     {
-        // Store the starting position and time
+        // Başlangıç noktasını ve zamanını sakla
         startPosition = transform.position;
         movementStartTime = Time.time;
 
-        // Set the target position and start the movement
+        // Hedef pozisyonu ayarla ve hareketi başlat
         targetPosition = destination;
         isMoving = true;
     }

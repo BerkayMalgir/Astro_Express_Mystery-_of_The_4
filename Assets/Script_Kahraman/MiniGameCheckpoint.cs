@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class MiniGameCheckpoint : MonoBehaviour
 {
-    
-
-    public Transform respawnPoint; // Checkpoint'in respawn noktasý
+    public Transform respawnPoint;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Ball")) // Sadece "Ball" etiketine sahip objeleri kontrol etmek istiyorsanýz bu satýrý kullanabilirsiniz.
+        if (collision.CompareTag("DeathZone"))
         {
-            collision.transform.position = respawnPoint.position; // Karakterin pozisyonunu checkpoint'in respawn noktasýna taþý.
-            // Ayrýca karakterin hýzýný sýfýrlamak veya baþka ayarlamalar yapmak isterseniz, burada yapabilirsiniz.
+            GameObject ball = GameObject.FindGameObjectWithTag("Ball");
+            Debug.Log("hit");
+            ball.transform.position = respawnPoint.position;
         }
     }
 }
-
