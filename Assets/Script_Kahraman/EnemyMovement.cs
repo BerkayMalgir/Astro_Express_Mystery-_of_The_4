@@ -2,35 +2,30 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float speed = 5f; 
-    public float minY = 2f; 
-    public float maxY = 8f; 
+    public Transform target1; // İlk hedef noktası
+    public Transform target2; // İkinci hedef noktası
+    public float speed = 2f; // Hareket hızı
 
-    private Rigidbody2D rb;
-    private bool movingUp = true; 
+    private Transform currentTarget; // Şu anki hedef noktası
 
-    void Start()
+    private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        // İlk hedef noktasını başlangıçta ayarla
+        currentTarget = target1;
     }
 
-    void FixedUpdate()
+    private void Update()
     {
-        if (movingUp)
+        // Hedef noktaya doğru hareket et
+        transform.position = Vector2.MoveTowards(transform.position, currentTarget.position, speed * Time.deltaTime);
+
+        // Eğer şu anki hedefe ulaşıldıysa, hedefi değiştir
+        if (Vector2.Distance(transform.position, currentTarget.position) < 0.1f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, speed);
-            if (transform.position.y >= maxY)
-            {
-                movingUp = false;
-            }
+            if (currentTarget == target1)
+                currentTarget = target2;
+            else
+                currentTarget = target1;
         }
-        else
-        {
-            rb.velocity = new Vector2(rb.velocity.x, -speed);
-            if (transform.position.y <= minY)
-            {
-                movingUp = true;
-            }
-        }
-    }      
     }
+}

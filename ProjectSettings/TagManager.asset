@@ -9,6 +9,7 @@ TagManager:
   - Ball
   - Checkpoint
   - DeathZone
+  - LevelEnd
   layers:
   - Default
   - TransparentFX

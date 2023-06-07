@@ -9,7 +9,7 @@ public class RoomManager : MonoBehaviour
     public GameObject diningHall;
     public GameObject infirmaryRoom;
     public GameObject coridor;
-
+    public Vector3 lastPlayerPosition; 
     #endregion
 
     private GameObject currentRoom;

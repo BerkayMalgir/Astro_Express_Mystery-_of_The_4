@@ -12,6 +12,7 @@ public class DoorScript : MonoBehaviour
     {
         roomManager = FindObjectOfType<RoomManager>();
     }
+
     private void Awake()
     {
         _playerInRange = false;
@@ -59,8 +60,16 @@ public class DoorScript : MonoBehaviour
                     AdjustCharacterPosition(new Vector3(-10f, -2f, 0f));
                     break;
                 case "CoridorTrigger":
-                    roomManager.CreateRoom(roomManager.coridor);
-                    AdjustCharacterPosition(new Vector3(-10f, -2f, 0f));
+                    // Önceki konuma geri dönme
+                    if (roomManager.lastPlayerPosition != Vector3.zero)
+                    {
+                        roomManager.CreateRoom(roomManager.coridor);
+                        AdjustCharacterPosition(roomManager.lastPlayerPosition);
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Last player position not found!");
+                    }
                     break;
                 default:
                     Debug.LogWarning("Invalid target trigger name!");
@@ -68,13 +77,15 @@ public class DoorScript : MonoBehaviour
             }
         }
     }
+
     private void AdjustCharacterPosition(Vector3 newPosition)
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
+            roomManager.lastPlayerPosition = player.transform.position; // RoomManager üzerindeki lastPlayerPosition değişkenini güncelle
             player.transform.position = newPosition;
-        
+
             // Move the camera along with the player
             Camera.main.transform.position = new Vector3(newPosition.x, newPosition.y, Camera.main.transform.position.z);
         }
@@ -83,5 +94,4 @@ public class DoorScript : MonoBehaviour
             Debug.LogWarning("Player object not found!");
         }
     }
-
-}   
+}
