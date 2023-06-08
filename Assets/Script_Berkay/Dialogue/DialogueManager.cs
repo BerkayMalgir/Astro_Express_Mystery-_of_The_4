@@ -54,7 +54,6 @@ public class DialogueManager : MonoBehaviour
          _choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
          index++;
       }
-      
    }
 
    private void Update()
@@ -101,22 +100,26 @@ public class DialogueManager : MonoBehaviour
       }
    }
 
-   private void DisplayChoices()
+   private void DisplayChoices() 
    {
       List<Choice> currentChoices = _currentStory.currentChoices;
+
+      // defensive check to make sure our UI can support the number of choices coming in
       if (currentChoices.Count > choices.Length)
       {
          Debug.LogError("More choices were given than the UI can support. Number of choices given: " 
                         + currentChoices.Count);
       }
+
       int index = 0;
-      
+      // enable and initialize the choices up to the amount of choices for this line of dialogue
       foreach(Choice choice in currentChoices) 
       {
          choices[index].gameObject.SetActive(true);
          _choicesText[index].text = choice.text;
          index++;
       }
+      // go through the remaining choices the UI supports and make sure they're hidden
       for (int i = index; i < choices.Length; i++) 
       {
          choices[i].gameObject.SetActive(false);
@@ -130,12 +133,13 @@ public class DialogueManager : MonoBehaviour
 
       EventSystem.current.SetSelectedGameObject(null);
       yield return new WaitForEndOfFrame();
+      EventSystem.current.SetSelectedGameObject(choices[0].gameObject);
    }
    public void MakeChoice(int choiceIndex)
    {
-     
          _currentStory.ChooseChoiceIndex(choiceIndex);
-      
+         
+         ContinueStory();
       
    }
    

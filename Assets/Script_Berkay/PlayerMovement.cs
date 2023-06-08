@@ -22,10 +22,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void HorizontalMove()
     {
-       // if (DialogueManager.GetInstance()._dialogueIsPlaying)
-       // {
-       //     return;
-       // }
+        if (DialogueManager.GetInstance()._dialogueIsPlaying)
+        {
+           return;
+        }
         
         
         walkMove = Input.GetAxisRaw("Horizontal") * walkSpeed;

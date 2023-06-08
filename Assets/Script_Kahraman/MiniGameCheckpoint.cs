@@ -10,7 +10,7 @@ public class MiniGameCheckpoint : MonoBehaviour
     {
         if (collision.CompareTag("DeathZone"))
         {
-            GameObject ball = GameObject.FindGameObjectWithTag("Ball");
+            GameObject ball = GameObject.FindGameObjectWithTag("Enemy");
             Debug.Log("hit");
             ball.transform.position = respawnPoint.position;
         }

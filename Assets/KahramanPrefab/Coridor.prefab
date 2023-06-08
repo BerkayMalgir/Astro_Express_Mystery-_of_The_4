@@ -1801,6 +1801,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 554129125585926339}
     m_Modifications:
+    - target: {fileID: 5072639829889618011, guid: f2c74ba23c441b5409093bdbe1b86cc7, type: 3}
+      propertyPath: inkJSON
+      value: 
+      objectReference: {fileID: 4900000, guid: 1cea9b452d45f594198cd99bbb523c80, type: 3}
     - target: {fileID: 5072639829904621128, guid: f2c74ba23c441b5409093bdbe1b86cc7, type: 3}
       propertyPath: m_RootOrder
       value: 15

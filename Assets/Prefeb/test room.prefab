@@ -724,6 +724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTriggerName: InfirmaryTrigger
   visualCue: {fileID: 1179041206773593181}
+  isCharacterVisible: 0
+  player: {fileID: 0}
 --- !u!1001 &2687432017009098045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -738,7 +740,7 @@ PrefabInstance:
     - target: {fileID: 5072639829889618011, guid: f2c74ba23c441b5409093bdbe1b86cc7, type: 3}
       propertyPath: inkJSON
       value: 
-      objectReference: {fileID: 4900000, guid: 13b410f2d6aece840aad0f2a56aef66d, type: 3}
+      objectReference: {fileID: 4900000, guid: 45ee54bec1fbd1a4e937135121fda02e, type: 3}
     - target: {fileID: 5072639829904621128, guid: f2c74ba23c441b5409093bdbe1b86cc7, type: 3}
       propertyPath: m_RootOrder
       value: 0

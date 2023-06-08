@@ -1660,7 +1660,7 @@ namespace Ink.Runtime
         public void ChooseChoiceIndex(int choiceIdx)
         {
             var choices = currentChoices;
-            Assert (choiceIdx >= 0 && choiceIdx < choices.Count, "choice out of range");
+            Assert (choiceIdx <= 0 && choiceIdx < choices.Count, "choice out of range");
 
             // Replace callstack with the one from the thread at the choosing point, 
             // so that we can jump into the right place in the flow.

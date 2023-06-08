@@ -9,15 +9,21 @@ public class RoomManager : MonoBehaviour
     public GameObject diningHall;
     public GameObject infirmaryRoom;
     public GameObject coridor;
-    public Vector3 lastPlayerPosition; 
+    public GameObject Microscop;
+    public Vector3 lastPlayerPosition;
+    
+    public GameObject MiniGame;
     #endregion
-
+    public static bool isCharacterVisible; // Karakter görünür mü?
+    public static GameObject player;
     private GameObject currentRoom;
 
     public void Start()
     {
         CreateRoom(coridor);
     }
+    
+
 
     public void CreateRoom(GameObject roomPrefab)
     {
