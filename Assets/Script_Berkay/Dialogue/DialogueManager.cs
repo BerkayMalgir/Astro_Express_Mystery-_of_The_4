@@ -13,7 +13,8 @@ public class DialogueManager : MonoBehaviour
    [SerializeField] private GameObject dialoguePanel;
    //[SerializeField] private GameObject continueIcon;
    [SerializeField] private TextMeshProUGUI dialogueText;
-   //[SerializeField] private TextMeshProUGUI displayNameText;
+   [SerializeField] private TextMeshProUGUI displayNameText;
+   [SerializeField] private Animator portraitAnimator;
    
    [Header("Choices UI")]
    [SerializeField] private GameObject[] choices;
@@ -22,6 +23,10 @@ public class DialogueManager : MonoBehaviour
    private Story _currentStory;
    public bool _dialogueIsPlaying { get; private set; }
    private static DialogueManager _instance;
+   
+   private const string SPEAKER_TAG = "speaker";
+   private const string PORTRAIT_TAG = "portrait";
+   private const string LAYOUT_TAG = "layout";
 
    private void Awake()
    {
@@ -87,6 +92,8 @@ public class DialogueManager : MonoBehaviour
       {
          dialogueText.text = _currentStory.Continue();
          DisplayChoices();
+         
+         HandleTags(_currentStory.currentTags);
       }
       else
       {
@@ -130,6 +137,36 @@ public class DialogueManager : MonoBehaviour
          _currentStory.ChooseChoiceIndex(choiceIndex);
       
       
+   }
+   
+   private void HandleTags(List<string> currentTags)
+   {
+      // loop through each tag and handle it accordingly
+      foreach (string tag in currentTags) 
+      {
+         // parse the tag
+         string[] splitTag = tag.Split(':');
+         if (splitTag.Length != 2) 
+         {
+            Debug.LogError("Tag could not be appropriately parsed: " + tag);
+         }
+         string tagKey = splitTag[0].Trim();
+         string tagValue = splitTag[1].Trim();
+            
+         // handle the tag
+         switch (tagKey) 
+         {
+            case SPEAKER_TAG:
+               displayNameText.text = tagValue;
+               break;
+            case PORTRAIT_TAG:
+               portraitAnimator.Play(tagValue);
+               break;
+            default:
+               Debug.LogWarning("Tag came in but is not currently being handled: " + tag);
+               break;
+         }
+      }
    }
 
 }

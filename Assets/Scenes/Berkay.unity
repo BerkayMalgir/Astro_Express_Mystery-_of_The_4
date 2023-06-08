@@ -387,6 +387,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eafab341e807f2c4fa4478f9cdf6fc8d, type: 3}
+--- !u!114 &785834622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6363724695215850288, guid: 836b4e96504eb0641aa4cd6817cedb92, type: 3}
+  m_PrefabInstance: {fileID: 5511157342904481396}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &908462194
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,6 +432,7 @@ MonoBehaviour:
   diningHall: {fileID: 0}
   infirmaryRoom: {fileID: 7196236763628435537, guid: 250dacab810c3eb4fbf9ef06d23ed7a5, type: 3}
   coridor: {fileID: 96024971525455636, guid: e07e3c56f7ca81b41a129ea757492ddc, type: 3}
+  lastPlayerPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &908462196
 Transform:
   m_ObjectHideFlags: 0
@@ -594,6 +606,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 647879592}
   dialogueText: {fileID: 1421820350}
+  displayNameText: {fileID: 785834622}
+  portraitAnimator: {fileID: 1633534724}
   choices:
   - {fileID: 91003896}
   - {fileID: 1128904668}
@@ -698,6 +712,32 @@ MonoBehaviour:
   FollowSpeed: 2
   yOffset: 1
   target: {fileID: 474053235}
+  destroyTag: LevelEnd
+--- !u!1 &1633534720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 192331909232032485, guid: 836b4e96504eb0641aa4cd6817cedb92, type: 3}
+  m_PrefabInstance: {fileID: 5511157342904481396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1633534724
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633534720}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 72787c1434c5f444e9520f80d85fa115, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2023944186
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +915,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1437667798}
+    - target: {fileID: 5511157342178655660, guid: 836b4e96504eb0641aa4cd6817cedb92, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -12.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5511157342341082588, guid: 836b4e96504eb0641aa4cd6817cedb92, type: 3}
       propertyPath: m_Name
       value: DialoguePanel
@@ -971,5 +1015,9 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1437667798}
+    - target: {fileID: 8740947547872295335, guid: 836b4e96504eb0641aa4cd6817cedb92, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: afed81428d36a784b8c43d08fc123848, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 836b4e96504eb0641aa4cd6817cedb92, type: 3}
