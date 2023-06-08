@@ -2247,6 +2247,7 @@ MonoBehaviour:
   infirmaryRoom: {fileID: 7196236763628435537, guid: 250dacab810c3eb4fbf9ef06d23ed7a5, type: 3}
   coridor: {fileID: 554129125585926338, guid: 32d306937a72bf04f9677922f5d79046, type: 3}
   Microscop: {fileID: 8774826131058719569, guid: 7c457054c46251448a4b9ef715c48673, type: 3}
+  Bag: {fileID: 9064149259508869391, guid: a85d3641e30dc7c4bb2e6c1d8914fdcc, type: 3}
   lastPlayerPosition: {x: 0, y: 0, z: 0}
   MiniGame: {fileID: 6575365689898145451, guid: f02ff2bfd8d00604397e6a73ea3ecdf6, type: 3}
 --- !u!1 &1512427001

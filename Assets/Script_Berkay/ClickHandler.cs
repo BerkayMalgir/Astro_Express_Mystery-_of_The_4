@@ -5,6 +5,7 @@ public class ClickHandler : MonoBehaviour
 {
     public GameObject[] targetObjects;
     public TextMeshProUGUI descriptionText;
+    public GameObject panelObject; // Panel objesini tutacak public GameObject
 
     private void Update()
     {
@@ -36,14 +37,21 @@ public class ClickHandler : MonoBehaviour
                     if (objectDescription != null)
                     {
                         descriptionText.text = objectDescription.description;
+                        panelObject.SetActive(true); // Panel objesini etkinleştir
                     }
                 }
                 else
                 {
                     // Tıklanan nesne hedef nesne değilse "not this one" mesajını ekranda göster
                     descriptionText.text = "Not this one";
+                    
                 }
             }
         }
+    }
+
+    public void ClosePanel()
+    {
+        panelObject.SetActive(false); // Panel objesini devre dışı bırak
     }
 }

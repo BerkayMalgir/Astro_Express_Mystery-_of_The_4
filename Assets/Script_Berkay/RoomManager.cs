@@ -10,6 +10,7 @@ public class RoomManager : MonoBehaviour
     public GameObject infirmaryRoom;
     public GameObject coridor;
     public GameObject Microscop;
+    public GameObject Bag;
     public Vector3 lastPlayerPosition;
     
     public GameObject MiniGame;

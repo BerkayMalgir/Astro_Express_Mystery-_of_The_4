@@ -12,7 +12,7 @@ public class DoorScript : MonoBehaviour
     private bool isMinigameTriggered; // Mini oyun tetiklendi mi?
     public  bool isCharacterVisible; // Karakter görünür mü?
     public  GameObject player; // Karakteri temsil eden değişken
-
+    bool isBagCreated = false;
     private void Start()
     {
         roomManager = FindObjectOfType<RoomManager>();
@@ -25,7 +25,7 @@ public class DoorScript : MonoBehaviour
         visualCue.SetActive(false);
 
         player = GameObject.FindGameObjectWithTag("Player"); // Karakteri bul ve referansını al
-
+         // İlk başta çanta oluşturulmadığı için false olarak başlatılır
         isMinigameTriggered = false;
         isCharacterVisible = true; // Başlangıçta karakter görünür olsun
     }
@@ -100,6 +100,16 @@ public class DoorScript : MonoBehaviour
                     roomManager.CreateRoom(roomManager.infirmaryRoom);
                     AdjustCharacterPosition(new Vector3(-10f, -2.5f, 0f));
                     break;
+                case "BagTrigger":
+                    if (isCharacterVisible)
+                    {
+                        player.SetActive(false);
+                        isCharacterVisible = false;
+                    }
+                    roomManager.CreateRoom(roomManager.Bag);
+                    AdjustCharacterPosition(new Vector3(0f, 0f, 0f));
+
+                    break;  
                 case "MiniGameTrigger":
                     roomManager.CreateRoom(roomManager.MiniGame);
                     AdjustCharacterPosition(new Vector3(-3f, -0f, 0f));
@@ -143,6 +153,19 @@ public class DoorScript : MonoBehaviour
         {
             case "InfirmaryTrigger":
                 roomManager.CreateRoom(roomManager.infirmaryRoom);
+
+                if (player != null)
+                {
+                    player.SetActive(true);
+                    isCharacterVisible = true;
+                }
+                else
+                {
+                    Debug.LogWarning("Player object not found!");
+                }
+                break;
+            case "CornelTrigger":
+                roomManager.CreateRoom(roomManager.colonelRoom);
 
                 if (player != null)
                 {

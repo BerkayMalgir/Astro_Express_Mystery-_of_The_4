@@ -13,8 +13,13 @@ public class ObjectClickHandler : MonoBehaviour
     
     private void OnMouseDown()
     {
-        
+        if (tag == "Inf")
+        {
             doorManager.TriggerTarget("InfirmaryTrigger");
-
+        }
+        else
+        {
+            doorManager.TriggerTarget("CornelTrigger");
+        }
     }
 }

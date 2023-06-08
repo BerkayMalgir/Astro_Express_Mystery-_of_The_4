@@ -3589,6 +3589,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2586585653535485580}
     m_Modifications:
+    - target: {fileID: 5072639829889618011, guid: f2c74ba23c441b5409093bdbe1b86cc7, type: 3}
+      propertyPath: inkJSON
+      value: 
+      objectReference: {fileID: 4900000, guid: f70d7f6da3f5e1b40aae6c21fdd05184, type: 3}
     - target: {fileID: 5072639829904621128, guid: f2c74ba23c441b5409093bdbe1b86cc7, type: 3}
       propertyPath: m_RootOrder
       value: 13
